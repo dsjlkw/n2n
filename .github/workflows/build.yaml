@@ -53,6 +53,7 @@ jobs:
         url=${{ matrix.sdk_url }}
         sdk=$(basename $url | awk -F '.tar.xz' '{ print $1 }')
 
+        mkdir -p $sdk/package
         cd $sdk/package
         cp -r /tmp/n2n/packages/openwrt .
         mv openwrt n2n
