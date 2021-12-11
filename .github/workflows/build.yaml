@@ -23,6 +23,7 @@ jobs:
           - https://downloads.openwrt.org/releases/21.02.1/targets/x86/generic/openwrt-sdk-21.02.1-x86-generic_gcc-8.4.0_musl.Linux-x86_64.tar.xz
           - https://downloads.openwrt.org/releases/21.02.1/targets/rockchip/armv8/openwrt-sdk-21.02.1-rockchip-armv8_gcc-8.4.0_musl.Linux-x86_64.tar.xz
           - https://downloads.openwrt.org/releases/21.02.1/targets/ipq40xx/generic/openwrt-sdk-21.02.1-ipq40xx-generic_gcc-8.4.0_musl_eabi.Linux-x86_64.tar.xz
+          - https://downloads.openwrt.org/releases/21.02.1/targets/ramips/mt76x8/openwrt-sdk-21.02.1-ramips-mt76x8_gcc-8.4.0_musl.Linux-x86_64.tar.xz
 
     steps:
     - name: Checkout
