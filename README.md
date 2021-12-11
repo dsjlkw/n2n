@@ -9,6 +9,7 @@ n2n, supernode for OpenWrt
 You can download the kernel module into your router and try to install it
 
 ```bash
+opkg update
 opkg install n2n.ipk
 ```
 
