@@ -1,6 +1,8 @@
 name: Build n2n for OpenWrt
 
 on:
+  release:
+    types: published
   push:
     branches:
       - 'main'
